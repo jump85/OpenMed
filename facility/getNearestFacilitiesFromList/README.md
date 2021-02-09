@@ -21,12 +21,13 @@ Nessun parametro
 * Creazione package, se inesistente
 
   ```bash
-  ibmcloud fn package create facility
+  ibmcloud fn package create facilityz
   ```
 
 * Creazione dello zip: posizionarsi nella directory "getNearestFacilitiesFromList" e lanciare
 
   ```bash
+  npm i
   zip -r getNearestFacilitiesFromList .
   ```
 
